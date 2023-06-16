@@ -187,7 +187,15 @@ nav ul li:hover{
 nav ul li a:hover {
     color: var(--textlight);
 }
-
+.nav-link.lang {
+    color: #ccb18c;
+}
+.nav-link.lang:hover{
+    color:#4c4135;
+}
+.lang-sign{
+    font-size: 1.6rem;
+}
 .margin-top {
     margin-top:3rem;
 }
@@ -488,6 +496,9 @@ footer {
 
         .navmenu a {
             font-size: 1.1rem;
+        }
+        .lang-sign{
+            font-size:1.1rem;
         }
 
         nav ul li:hover{
