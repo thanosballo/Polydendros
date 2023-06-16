@@ -53,43 +53,48 @@
         </div>
         <nav class="navmenu">
           <ul>
-            <li><a href="index.html" class="nav-link">Αρχική</a></li>
-            <li><a href="products.html" class="nav-link">Προϊόντα</a></li>
-            <li><a href="services.html" class="nav-link">Υπηρεσιές</a></li>
-            <li><a href="aboutus.html" class="nav-link">Σχετικά με εμάς</a></li>
-            <li><a href="contact.html" class="nav-link">Επικοινωνία</a></li>
+            <li><a href="index-en.html" class="nav-link">Homepage</a></li>
+            <li><a href="products-en.html" class="nav-link">Products</a></li>
+            <li><a href="services-en.html" class="nav-link">Services</a></li>
+            <li><a href="aboutus-en.html" class="nav-link">About us</a></li>
+            <li><a href="contact-en.html" class="nav-link">Contact us</a></li>
+            <li>
+              <a href="index.html" class="nav-link lang">ΕΛ</a><span class="lang-sign"> /</span>
+              <a href="index-en.html" class="nav-link lang">EN</a><!-- <span class="lang-sign">/</span> -->
+            <!--   <a href="index-ch.html" class="nav-link lang">CH</a> -->
+            </li>
           </ul>
         </nav>
       </div>
     </section>
     <section id="contactform">
       <div id="formsection">
-        <h3>Αιτημα επικοινωνίας</h3>
+        <h3>Fill in the form:</h3>
         <form action="sendmail.php" method="POST">
-          <label for="fname">Όνομα:</label>
+          <label for="fname">First Name:</label>
           <input type="text" id="fname" name="fname" required />
-          <label for="lname">Επώνυμο:</label>
+          <label for="lname">Last Name:</label>
           <input type="text" id="lname" name="lname" required />
           <label for="email">Email:</label>
           <input type="email" name="email" id="email" required />
-          <label for="telephone">Τηλέφωνο επικοινωνίας</label>
+          <label for="telephone">Phone Number:</label>
           <input type="tel" id="telephone" name="telephone" />
-          <label for="colabtype">Ενδιαφέρομαι για :</label>
+          <label for="colabtype">I am intrested in :</label>
           <select name="colabtype" id="colabtype">
-            <option value="default">Επιλέξτε ένα</option>
-            <option value="process">Επεξεργασία</option>
-            <option value="pack">Συσκευασία</option>
-            <option value="colabboration">Συνεργασία</option>
+            <option value="default">Choose one</option>
+            <option value="process">Food Processing</option>
+            <option value="pack">Food Packaging</option>
+            <option value="colabboration">Collaboration</option>
           </select>
-          <label for="comment">Το μήνυμα σας</label>
+          <label for="comment">Your message</label>
           <textarea
             name="comment"
             id="comment"
             cols="30"
             rows="1"
-            placeholder="Με ενδιαφέρει ..."
+            placeholder="I would like to ..."
           ></textarea>
-          <input type="submit" value="Υποβολή" />
+          <input type="submit" value="Submit" />
         </form>
       </div>
       <div id="formimgsection">
@@ -99,14 +104,14 @@
     <section id="contact">
       <div class="contactinfo">
         <p class="firstcontact">
-          1o ΧΛΜ ΠΕΟ ΕΛΑΣΣΟΝΑΣ - ΛΑΡΙΣΑΣ,<br />
-          40200 ΕΛΑΣΣΟΝΑ<br />
+          1st Km of Old National Road ELASSONA - LARISA,<br />
+          40200 Elassona , Greece<br />
           <a href="tel:00302493301518">T:+30 2493 30 15 18 </a><br />
           <a href="mailto:sales@polydendros.com">E:sales@polydendros.com</a>
         </p>
         <p class="secondcontact">
-          <span class="large-text">Μείνετε σε επαφή</span><br />
-          Συνδεθείτε μαζί μας στα social media
+          <span class="large-text">Stay in touch</span><br />
+          Find us on social media
         </p>
         <div class="socialbar">
           <a href="https://www.facebook.com/POLYDENDROS/"
