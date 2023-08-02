@@ -1,40 +1,39 @@
-
 .toogle {
-    display: none;
+  display: none;
 }
 
 nav {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
-ul{
-    display: flex;
-    justify-content: end;
-    align-items:center;
+ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 li {
-    margin-left: 1.2rem;
+  margin-left: 1.2rem;
 }
 
 .navmenu a {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
-nav ul li:hover{
-   border: none;   
+nav ul li:hover {
+  border: none;
 }
 
 .braintext {
-    font-size: 0.5rem;
+  font-size: 0.5rem;
 }
-.container{
-    width: 70%;
+.container {
+  width: 60%;
 }
-.wrapper{
-    width: 70%;
+.wrapper {
+  width: 60%;
 }
-.lang-sign{
-    font-size: 1.1rem;
+.lang-sign {
+  font-size: 1.1rem;
 }
