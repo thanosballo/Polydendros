@@ -107,3 +107,8 @@ footer p {
 .width30 {
     width: 100%;
 }
+.promo {
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+  }

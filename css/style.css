@@ -472,6 +472,32 @@ footer {
     padding: 1rem 0;
 }
 
+.promo{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+  }
+  .promo img {
+    width: 100%;
+  }
+  .promo p {
+    width: 50%;
+    font-size: 1.6rem;
+  }
+  .promo>a {
+    width: 50%;
+  }
+  .promo a {
+    color: brown;
+    text-decoration: underline;
+  }
+  .promo a:hover {
+    font-size: 2rem;
+  }
 
 @media screen and (min-width:1365px) {
     
