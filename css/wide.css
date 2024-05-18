@@ -31,6 +31,9 @@ nav ul li:hover {
 .container {
   width: 60%;
 }
+#contactform , #contact{
+  width: 60%;
+}
 .wrapper {
   width: 60%;
 }
